@@ -1,0 +1,21 @@
+{
+  "name": "device",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "chromedriver": "^87.0.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.1",
+    "python-shell": "^2.0.3",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "socket.io-client": "2.3.0",
+    "usb-detection": "^4.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
