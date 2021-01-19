@@ -3,7 +3,7 @@ const { Schema, model } = require("mongoose");
 const Device = Schema({
   deviceName: {
     type: String,
-    default: "CLASSROOM-II",
+    default: "CLASSROOM-I",
   },
   deviceId: {
     type: String,
