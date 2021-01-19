@@ -1,7 +1,7 @@
 const io = require("socket.io-client")
 const usb = require("usb-detection");
-const Device = require("../models/Device");
-const Service = require("../utilities/Service");
+const Device = require("../models/device");
+const Service = require("../utilities/service");
 module.exports = () => {
     const SERVER = process.env.SERVER
     const socket = io(SERVER)
